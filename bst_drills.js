@@ -112,8 +112,10 @@ class BinarySearchTree {
     return this.left._findMin();
   }
 }
+module.exports = BinarySearchTree;
 
-const BST = new BinarySearchTree();
+// const BST = new BinarySearchTree();
+
 // BST.insert(3);
 // BST.insert(1);
 // BST.insert(4);
